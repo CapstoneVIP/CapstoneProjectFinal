@@ -1,0 +1,28 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
+ 
+   <a class="navbar-brand" href="#">DWMS</a>
+   <div class="collapse navbar-collapse" id="navbarText">
+     <ul class="navbar-nav mr-auto">
+       <li routerLinkActive="active" class="nav-item">
+         <a class="nav-link" routerLink="home">Home</a>
+       </li>
+       <li class="nav-item" routerLinkActive="active">
+         <a class="nav-link" routerLink="chat">Chat</a>
+       </li>
+       <li class="nav-item" routerLinkActive="active">
+         <a class="nav-link" routerLink="leaflet">Map</a>
+       </li>
+       <li class="nav-item" routerLinkActive="active">
+         <a class="nav-link" routerLink="admin">Admin</a>
+       </li>
+     </ul>
+
+     <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </li>
+    </ul>
+   </div>
+ </nav>
+ 
+<router-outlet></router-outlet>
