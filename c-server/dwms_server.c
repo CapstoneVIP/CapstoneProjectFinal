@@ -12,7 +12,7 @@
 #define PORT 62321
 
 int main(void){
-	int s, len, slen;
+	int s, slen;
 	unsigned int packet_num = 0;
 	unsigned int i = 0;
 	double dlat, dlon;
